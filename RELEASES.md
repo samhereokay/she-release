@@ -13,19 +13,19 @@ Official signed binary builds, cryptographic verification hashes, and changelog 
 ### Included Binary Artifacts
 | Application | Binary File | Size | Architecture | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **SHE Guardian** | [`she-guardian.apk`](releases/she-guardian.apk) | ~33.7 MB | ARM64-v8a / x86_64 | `f43a804f84fa92d54a6d7a07eb625dac9c8627ee7670abd3c67b3fa17e03b037` |
-| **SHE Admin Companion** | [`she-admin.apk`](releases/she-admin.apk) | ~31.0 MB | ARM64-v8a / x86_64 | `ec0ddca55b5b0d17a7eb53a3c849ea4fc2b6ca63b4803fb9639ae64ad32d1cf5` |
+| **SHE Guardian** | [`she-guardian.apk`](releases/she-guardian.apk) | ~44 MB | ARM64-v8a / x86_64 | `16af849adc7cdf811fe270497e1c9e7ec9f4714be35e907219590cec2f2f204f` |
+| **SHE Admin Companion** | [`she-admin.apk`](releases/she-admin.apk) | ~45 MB | ARM64-v8a / x86_64 | `ec4c59db496542387f8a9cbbb33b3eb69753ba988bb8452bcce5fd2e7203b8bf` |
 
 ### Key Features & Capabilities in v0.3.0
-1. **🛰️ WebSocket Map View Live Tracking (Admin APK)**:
+1. **WebSocket Map View Live Tracking (Admin APK)**:
    * Dedicated real-time radar tracking activity inside `she-admin.apk`.
    * Live streaming WebSocket connection to `/api/v1/ws/devices/{device_id}` with automated keepalive ping and seamless auto-reconnect.
    * Interactive Leaflet dark tactical map with CartoDB Dark Matter tiles, glowing cyan breadcrumb polyline, pulsing radar animation, accuracy range ring, and auto-pan follow target.
    * On-map tactical actions: instant `LOCATE` ping dispatch, siren alert trigger, and interactive demo simulation mode.
-2. **🗺️ Interactive Map Search & Google Maps Fallback**:
+2. **Interactive Map Search & Google Maps Fallback**:
    * One-click **"Maps"** button on device cards to view fixes in external navigation apps (`geo:<lat>,<lng>?q=...`).
    * Satellite accuracy indicators ($\pm \text{meters}$) and capture vs. server receipt timestamps.
-3. **ℹ️ In-App Architecture & Telemetry Modal**:
+3. **In-App Architecture & Telemetry Modal**:
    * Detailed explanations of Direct Boot hardware storage, Device Encrypted Storage (DE), and zero-telemetry backend assurances accessible directly from the app interface.
 3. **Mutual Camera QR Pairing**:
    * Out-of-band cryptographic handshake between handsets without exposing secrets over Wi-Fi or Bluetooth.

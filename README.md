@@ -12,20 +12,20 @@
 
 ---
 
-## 📥 Direct APK Downloads (v0.3.0)
+## Direct APK Downloads (v0.3.0)
 
 Download the verified binaries directly from this release repository:
 
 | App | Description | Size | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **SHE Guardian** | Install on the handset to be protected | 33.7 MB | [⬇️ Download `she-guardian.apk`](releases/she-guardian.apk) | `f43a804f84fa92d54a6d7a07eb625dac9c8627ee7670abd3c67b3fa17e03b037` |
-| **SHE Admin Companion** | Install on the owner's controller phone | 31.0 MB | [⬇️ Download `she-admin.apk`](releases/she-admin.apk) | `ec0ddca55b5b0d17a7eb53a3c849ea4fc2b6ca63b4803fb9639ae64ad32d1cf5` |
+| **SHE Guardian** | Install on the handset to be protected | 44 MB | [Download `she-guardian.apk`](releases/she-guardian.apk) | `16af849adc7cdf811fe270497e1c9e7ec9f4714be35e907219590cec2f2f204f` |
+| **SHE Admin Companion** | Install on the owner's controller phone | 45 MB | [Download `she-admin.apk`](releases/she-admin.apk) | `ec4c59db496542387f8a9cbbb33b3eb69753ba988bb8452bcce5fd2e7203b8bf` |
 
-> 🌐 **Interactive Web Release Portal**: You can also open [`index.html`](index.html) in any web browser to view the interactive release dashboard with one-click download buttons, mobile QR codes, and telemetry guides.
+> **Interactive Web Release Portal**: You can also open [`index.html`](index.html) in any web browser to view the interactive release dashboard with one-click download buttons, mobile QR codes, and telemetry guides.
 
 ---
 
-## 🛡️ Quick Installation & Verification
+## Quick Installation & Verification
 
 ### 1. Cryptographic Checksum Verification
 Before sideloading onto your Android hardware, verify that the files are untampered:
@@ -47,18 +47,18 @@ sha256sum -c checksums.sha256
 
 ---
 
-## ⚡ Core Capabilities
+## Core Capabilities
 
-* **🗺️ One-Click Map Search**: Instant **"Search on Map"** buttons on both handset and companion screens that open satellite coordinates directly in Google Maps (`geo:<lat>,<lng>?q=...`).
-* **🛰️ Direct Boot Telemetry**: Resumes encrypted GPS tracking immediately after device power-on, even while the phone remains locked at the first boot screen before user PIN entry.
-* **📶 Offline AT1 SMS Fallback**: Transmits 48-bit truncated HMAC-SHA256 authenticated emergency location beacons over standard SMS when cellular data and Wi-Fi are unavailable.
-* **🔐 Zero-Knowledge Vault**: Stores emergency master passphrases encrypted client-side using Argon2id and AES-256-GCM. The server holds zero readable secrets.
-* **📷 Mutual QR Camera Pairing**: Establishes secure device binding via optical camera scanning without exposing pairing tokens over public networks.
-* **🔊 Emergency Acoustic Siren**: High-pitch auditory alert controllable remotely to pinpoint a misplaced or hidden phone.
+* **One-Click Map Search**: Instant **"Search on Map"** buttons on both handset and companion screens that open satellite coordinates directly in Google Maps (`geo:<lat>,<lng>?q=...`).
+* **Direct Boot Telemetry**: Resumes encrypted GPS tracking immediately after device power-on, even while the phone remains locked at the first boot screen before user PIN entry.
+* **Offline AT1 SMS Fallback**: Transmits 48-bit truncated HMAC-SHA256 authenticated emergency location beacons over standard SMS when cellular data and Wi-Fi are unavailable.
+* **Zero-Knowledge Vault**: Stores emergency master passphrases encrypted client-side using Argon2id and AES-256-GCM. The server holds zero readable secrets.
+* **Mutual QR Camera Pairing**: Establishes secure device binding via optical camera scanning without exposing pairing tokens over public networks.
+* **Emergency Acoustic Siren**: High-pitch auditory alert controllable remotely to pinpoint a misplaced or hidden phone.
 
 ---
 
-## 🔒 Safety & Zero-Harm Guarantees
+## Safety & Zero-Harm Guarantees
 
 * **Zero Harm to Personal Devices**: SHE contains **no bricking, no destructive storage corruption, and no forced factory wipes**. All commands preserve operating system integrity and personal data.
 * **Zero Automated Emergency Interference**: SHE **never dials 112, 911, or emergency dispatchers automatically**. All emergency assistance references are purely user-facing documentation.
@@ -66,13 +66,13 @@ sha256sum -c checksums.sha256
 
 ---
 
-## 📚 Documentation
-* [📖 User Guide](docs/USER_GUIDE.md) - Handset features, pairing steps, and dashboard operations.
-* [📲 Sideloading Runbook](docs/INSTALLATION_GUIDE.md) - Android 10-15 installation and OEM optimization.
-* [⚙️ Setup Runbook](docs/SETUP_ORDER.md) - 10-step deployment and verification runbook.
-* [🔐 Data Privacy & Compliance](docs/DATA_PRIVACY.md) - Zero-telemetry technical disclosure.
+## Documentation
+* [User Guide](docs/USER_GUIDE.md) - Handset features, pairing steps, and dashboard operations.
+* [Sideloading Runbook](docs/INSTALLATION_GUIDE.md) - Android 10-15 installation and OEM optimization.
+* [Setup Runbook](docs/SETUP_ORDER.md) - 10-step deployment and verification runbook.
+* [Data Privacy & Compliance](docs/DATA_PRIVACY.md) - Zero-telemetry technical disclosure.
 
 ---
 
-## 📄 License
+## License
 SHE is open-source software licensed under the [Apache 2.0 License](LICENSE).

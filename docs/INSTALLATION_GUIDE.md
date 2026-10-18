@@ -89,6 +89,6 @@ To link the Guardian phone to the Admin phone with zero cleartext key exchange:
 Once paired, test the communication channel:
 1. From the Admin Companion Dashboard, tap **"Locate"**.
 2. The Guardian phone immediately locks on to GPS satellites and transmits an encrypted location fix.
-3. On the Admin Companion, view the updated coordinates and tap **🗺️ Search on Map** to view the live pin in Google Maps.
+3. On the Admin Companion, view the updated coordinates and tap **Search on Map** to view the live pin in Google Maps.
 4. Tap **"Ring"** to test the emergency siren (verify high-pitch alert sounds).
 5. Tap **"Stop Ring"** to silence the alert.
