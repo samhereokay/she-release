@@ -14,7 +14,7 @@ Official signed binary builds, cryptographic verification hashes, and changelog 
 | Application | Binary File | Size | Architecture | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
 | **SHE Guardian** | [`she-guardian.apk`](releases/she-guardian.apk) | ~44 MB | ARM64-v8a / x86_64 | `16af849adc7cdf811fe270497e1c9e7ec9f4714be35e907219590cec2f2f204f` |
-| **SHE Admin Companion** | [`she-admin.apk`](releases/she-admin.apk) | ~45 MB | ARM64-v8a / x86_64 | `ec4c59db496542387f8a9cbbb33b3eb69753ba988bb8452bcce5fd2e7203b8bf` |
+| **SHE Admin Companion** | [`she-admin.apk`](releases/she-admin.apk) | ~45 MB | ARM64-v8a / x86_64 | `232f20335e60e9867406a1dd606dd81022793db3824dfbec23528985d2cecfa4` |
 
 ### Key Features & Capabilities in v0.3.0
 1. **WebSocket Map View Live Tracking (Admin APK)**:
