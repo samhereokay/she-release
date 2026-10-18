@@ -19,7 +19,7 @@ Download the verified binaries directly from this release repository:
 | App | Description | Size | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
 | **SHE Guardian** | Install on the handset to be protected | 33.7 MB | [⬇️ Download `she-guardian.apk`](releases/she-guardian.apk) | `f43a804f84fa92d54a6d7a07eb625dac9c8627ee7670abd3c67b3fa17e03b037` |
-| **SHE Admin Companion** | Install on the owner's controller phone | 32.0 MB | [⬇️ Download `she-admin.apk`](releases/she-admin.apk) | `b484ad752e5fa632593c90764af2799a9df7b34b786e4bf1425a04caf74ae898` |
+| **SHE Admin Companion** | Install on the owner's controller phone | 31.0 MB | [⬇️ Download `she-admin.apk`](releases/she-admin.apk) | `69d9bb325cdcf3b480be6b667b6d317ee203dae05011e7f21c659d08d25505d2` |
 
 > 🌐 **Interactive Web Release Portal**: You can also open [`index.html`](index.html) in any web browser to view the interactive release dashboard with one-click download buttons, mobile QR codes, and telemetry guides.
 
