@@ -9,23 +9,31 @@
     <meta name="description" content="SHE (Sentinel for Handheld Equipment) is an open-source Android anti-theft, direct-boot recovery, and zero-knowledge handset security ecosystem.">
     <meta name="keywords" content="SHE anti-theft, open-source android security, lost phone tracker, handset recovery, direct boot, zero knowledge vault, offline sms beacon, emergency wipe, erss 112, ceir">
     <meta name="author" content="SHE Open-Source Security Project">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="theme-color" content="#000000">
-    <meta name="google-site-verification" content="z5xV9Ou0LVNkjz-L7lYizJrpK4jZ_UKCeg6tc9YW3PU">
+    <meta name="color-scheme" content="dark light">
+    <link rel="canonical" href="https://she.up.railway.app/">
 
     <!-- Open Graph (Facebook / WhatsApp / LinkedIn / Telegram) -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="SHE - Sentinel for Handheld Equipment">
     <meta property="og:url" content="https://she.up.railway.app/">
     <meta property="og:title" content="SHE - Sentinel for Handheld Equipment | Open-Source Anti-Theft">
-    <meta property="og:description" content="Open-source Android anti-theft, real-time handset recovery, and zero-knowledge defense ecosystem.">
+    <meta property="og:description" content="SHE (Sentinel for Handheld Equipment) is an open-source Android anti-theft, direct-boot recovery, and zero-knowledge handset security ecosystem.">
     <meta property="og:image" content="https://she.up.railway.app/logo.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="og:image:alt" content="SHE Anti-Theft Shield Logo">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="SHE - Sentinel for Handheld Equipment | Open-Source Anti-Theft">
-    <meta name="twitter:description" content="Open-source Android anti-theft, real-time handset recovery, and zero-knowledge defense ecosystem.">
+    <meta name="twitter:description" content="SHE (Sentinel for Handheld Equipment) is an open-source Android anti-theft, direct-boot recovery, and zero-knowledge handset security ecosystem.">
     <meta name="twitter:image" content="https://she.up.railway.app/logo.png">
+
+    <!-- Search Console Verification -->
+    <meta name="google-site-verification" content="z5xV9Ou0LVNkjz-L7lYizJrpK4jZ_UKCeg6tc9YW3PU">
+    
 
     <!-- Favicon & Touch Icons -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?v=3">
@@ -34,6 +42,31 @@
     <link rel="icon" type="image/png" sizes="192x192" href="logo.png?v=3">
     <link rel="apple-touch-icon" sizes="180x180" href="logo.png?v=3">
 
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "SHE - Sentinel for Handheld Equipment",
+        "operatingSystem": "Android 8.0+",
+        "applicationCategory": "SecurityApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "description": "Open-source Android anti-theft and remote handset recovery ecosystem with Direct Boot, offline SMS beacons, and zero-knowledge vault.",
+        "url": "https://she.up.railway.app",
+        "downloadUrl": "https://she.up.railway.app/releases",
+        "author": {
+            "@type": "Organization",
+            "name": "SHE Open-Source Project",
+            "url": "https://github.com/samhereokay/she"
+        }
+    }
+    </script>
+
+    <!-- Typography & Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -50,83 +83,99 @@
 :root {
     --bg-dark: #000000;
     --bg-card: #121212;
-    --bg-card-hover: #1A1A1A;
-    --bg-inset: #0A0A0A;
-    --bg-code: #0A0A0A;
-    --border: #262626;
+    --bg-card-hover: #1C1C1E;
+    --bg-inset: #1C1C1E;
+    --bg-code: #121212;
+    --border: #2C2C2E;
     --border-subtle: #1C1C1E;
-    --primary: #38BDF8;
-    --primary-glow: rgba(56, 189, 248, 0.25);
-    --primary-soft: rgba(56, 189, 248, 0.12);
-    --secondary: #2563EB;
-    --accent: #10B981;
-    --accent-soft: rgba(16, 185, 129, 0.12);
+    --primary: #FFFFFF;
+    --primary-text: #000000;
+    --primary-glow: rgba(255, 255, 255, 0.12);
+    --primary-soft: #27272A;
+    --secondary: #1C1C1E;
+    --accent: #22C55E;
+    --accent-soft: #14301A;
     --danger: #EF4444;
-    --danger-soft: rgba(239, 68, 68, 0.12);
+    --danger-soft: #351010;
     --warning: #F59E0B;
-    --warning-soft: rgba(245, 158, 11, 0.12);
-    --text-main: #F8FAFC;
-    --text-muted: #94A3B8;
-    --text-subtle: #64748B;
-    --nav-bg: rgba(0, 0, 0, 0.88);
-    --shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.6);
-    --shadow-hover: 0 12px 30px -4px rgba(0, 0, 0, 0.7);
-    --card-radius: 20px;
+    --warning-soft: #352008;
+    --text-main: #F5F5F7;
+    --text-muted: #A1A1AA;
+    --text-subtle: #71717A;
+    --nav-bg: rgba(0, 0, 0, 0.90);
+    --shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.7);
+    --shadow-hover: 0 12px 30px -4px rgba(0, 0, 0, 0.85);
+    --card-radius: 16px;
     --pill-radius: 9999px;
     --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
 }
 
 [data-theme="light"] {
-    --bg-dark: #F8F9FB;
+    --bg-dark: #F8F9FA;
     --bg-card: #FFFFFF;
-    --bg-card-hover: #F8FAFC;
-    --bg-inset: #F1F5F9;
-    --bg-code: #F1F5F9;
-    --border: #E2E8F0;
-    --border-subtle: #EDF2F7;
-    --primary: #2563EB;
-    --primary-glow: rgba(37, 99, 235, 0.2);
-    --primary-soft: rgba(37, 99, 235, 0.08);
-    --secondary: #1D4ED8;
+    --bg-card-hover: #F4F4F5;
+    --bg-inset: #F4F4F5;
+    --bg-code: #F4F4F5;
+    --border: #E4E4E7;
+    --border-subtle: #F4F4F5;
+    --primary: #09090B;
+    --primary-text: #FFFFFF;
+    --primary-glow: rgba(9, 9, 11, 0.12);
+    --primary-soft: #F4F4F5;
+    --secondary: #F4F4F5;
     --accent: #059669;
-    --accent-soft: rgba(5, 150, 105, 0.08);
+    --accent-soft: #ECFDF5;
     --danger: #DC2626;
-    --danger-soft: rgba(220, 38, 38, 0.08);
+    --danger-soft: #FEF2F2;
     --warning: #D97706;
-    --warning-soft: rgba(217, 119, 6, 0.08);
-    --text-main: #0F172A;
-    --text-muted: #64748B;
-    --text-subtle: #94A3B8;
-    --nav-bg: rgba(248, 249, 251, 0.88);
-    --shadow-card: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
-    --shadow-hover: 0 12px 30px -4px rgba(15, 23, 42, 0.12);
+    --warning-soft: #FFFBEB;
+    --text-main: #09090B;
+    --text-muted: #52525B;
+    --text-subtle: #A1A1AA;
+    --nav-bg: rgba(248, 249, 250, 0.94);
+    --shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.04);
+    --shadow-hover: 0 12px 30px -4px rgba(0, 0, 0, 0.08);
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--bg-dark);
     color: var(--text-main);
     font-family: var(--font-sans);
     line-height: 1.6;
     overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     transition: background-color 0.25s ease, color 0.25s ease;
 }
 
-/* Navigation Bar */
+/* Base Top Navigation */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2.25rem;
+    padding: 0.85rem 2rem;
     background: var(--nav-bg);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 1000;
     transition: background 0.25s, border-color 0.25s;
+    width: 100%;
 }
 .brand {
     display: flex;
@@ -137,6 +186,7 @@ nav {
     color: var(--text-main);
     text-decoration: none;
     letter-spacing: -0.02em;
+    flex-shrink: 0;
 }
 .brand img {
     width: 36px;
@@ -155,31 +205,43 @@ nav {
     border: 1px solid var(--border);
     letter-spacing: 0.06em;
 }
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    order: 3;
+}
+
 .nav-links {
     display: flex;
-    gap: 1.25rem;
+    gap: 0.5rem 0.75rem;
     align-items: center;
     flex-wrap: wrap;
+    order: 2;
 }
 .nav-links a {
     color: var(--text-muted);
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     font-weight: 600;
-    transition: color 0.2s;
-    padding: 0.4rem 0.6rem;
+    transition: color 0.2s, background-color 0.2s;
+    padding: 0.45rem 0.65rem;
     border-radius: 8px;
+    white-space: nowrap;
 }
 .nav-links a:hover, .nav-links a.active {
     color: var(--primary);
+    background: var(--primary-soft);
 }
 
 /* Theme Switcher Toggle Pill */
 .theme-toggle-btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.45rem;
-    padding: 0.4rem 0.85rem;
+    padding: 0.45rem 0.85rem;
     border-radius: var(--pill-radius);
     background: var(--bg-card);
     border: 1px solid var(--border);
@@ -190,6 +252,7 @@ nav {
     cursor: pointer;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
     transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    min-height: 38px;
 }
 .theme-toggle-btn:hover {
     border-color: var(--primary);
@@ -197,33 +260,125 @@ nav {
     transform: translateY(-1px);
 }
 .theme-icon-light { display: none; }
-.theme-icon-dark { display: inline-block; }
-[data-theme="light"] .theme-icon-light { display: inline-block; }
+.theme-icon-dark { display: inline-flex; align-items: center; }
+[data-theme="light"] .theme-icon-light { display: inline-flex; align-items: center; }
 [data-theme="light"] .theme-icon-dark { display: none; }
 
-/* Layout & Containers */
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 2.75rem 1.5rem;
+.nav-toggle-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.nav-toggle-btn:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--primary);
 }
 
-/* Warning & Status Banners */
+/* Mobile Responsive Navigation Drawer */
+@media (max-width: 991px) {
+    nav {
+        padding: 0.75rem 1rem;
+        flex-wrap: wrap;
+    }
+    .brand {
+        font-size: 1.12rem;
+        gap: 0.5rem;
+    }
+    .brand img {
+        width: 30px;
+        height: 30px;
+    }
+    .brand-badge {
+        font-size: 0.58rem;
+        padding: 0.15rem 0.45rem;
+    }
+    .nav-actions {
+        order: 2;
+    }
+    .theme-toggle-btn {
+        padding: 0.35rem 0.65rem;
+        font-size: 0.78rem;
+    }
+    .nav-toggle-btn {
+        display: inline-flex;
+    }
+    .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.35rem;
+        padding: 0.85rem 0 0.25rem 0;
+        margin-top: 0.65rem;
+        border-top: 1px solid var(--border);
+        order: 3;
+    }
+    .nav-links.open {
+        display: flex;
+        animation: navSlideDown 0.22s ease-out;
+    }
+    .nav-links a {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0.75rem 1rem;
+        font-size: 0.95rem;
+        min-height: 44px;
+        border-radius: 10px;
+    }
+}
+
+@keyframes navSlideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Containers */
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: clamp(1.5rem, 4vw, 2.75rem) clamp(0.85rem, 3vw, 1.5rem);
+    box-sizing: border-box;
+}
+
+.banner-wrap {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 clamp(0.85rem, 3vw, 1.5rem);
+    box-sizing: border-box;
+}
+
+/* Banners */
+.warning-banner, .release-banner {
+    border-radius: 16px;
+    padding: clamp(1rem, 3vw, 1.25rem) clamp(1rem, 3vw, 1.6rem);
+    margin: 1.25rem auto 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-sizing: border-box;
+}
 .warning-banner {
     background: var(--warning-soft);
     border: 1px solid rgba(245, 158, 11, 0.35);
-    border-radius: 16px;
-    padding: 1.25rem 1.6rem;
-    margin: 1.5rem auto 0 auto;
-    max-width: 1140px;
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
     box-shadow: 0 4px 16px rgba(245, 158, 11, 0.08);
-}
-.warning-icon {
-    font-size: 1.5rem;
-    line-height: 1;
 }
 .warning-body {
     flex: 1;
@@ -240,11 +395,65 @@ nav {
     margin-bottom: 0.25rem;
 }
 
+.release-banner {
+    background: rgba(56, 189, 248, 0.08);
+    border: 1px solid rgba(56, 189, 248, 0.35);
+    box-shadow: 0 4px 20px rgba(56, 189, 248, 0.08);
+}
+.release-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    background: rgba(56, 189, 248, 0.15);
+    color: var(--primary);
+    flex-shrink: 0;
+}
+.release-body {
+    flex: 1;
+    font-size: 0.92rem;
+    color: var(--text-main);
+    line-height: 1.55;
+}
+.release-title {
+    font-weight: 800;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .warning-banner, .release-banner {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.85rem;
+        padding: 1.1rem;
+    }
+    .release-banner .btn, .warning-banner .btn {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 4.5rem 1.5rem 3rem 1.5rem;
+    padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1rem, 3vw, 1.5rem) clamp(1.5rem, 4vw, 3rem) clamp(1rem, 3vw, 1.5rem);
     background: radial-gradient(circle at 50% 15%, var(--primary-soft), transparent 75%);
+    width: 100%;
+    box-sizing: border-box;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
 }
 .hero-badge {
     display: inline-flex;
@@ -255,19 +464,22 @@ nav {
     background: var(--primary-soft);
     border: 1px solid rgba(56, 189, 248, 0.35);
     color: var(--primary);
-    font-size: 0.85rem;
+    font-size: clamp(0.75rem, 2vw, 0.85rem);
     font-weight: 700;
     margin-bottom: 1.5rem;
     letter-spacing: 0.02em;
+    max-width: 100%;
+    word-break: break-word;
 }
 .hero h1 {
-    font-size: 3.25rem;
+    font-size: clamp(1.85rem, 5vw + 0.5rem, 3.25rem);
     font-weight: 800;
     letter-spacing: -0.035em;
-    line-height: 1.15;
+    line-height: 1.18;
     max-width: 840px;
     margin: 0 auto 1.35rem auto;
     color: var(--text-main);
+    word-break: break-word;
 }
 .hero h1 span {
     background: linear-gradient(135deg, var(--primary), #3B82F6);
@@ -275,25 +487,28 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 .hero p {
-    font-size: 1.12rem;
+    font-size: clamp(0.95rem, 2.2vw, 1.12rem);
     color: var(--text-muted);
     max-width: 660px;
     margin: 0 auto 2.25rem auto;
     line-height: 1.7;
+    padding: 0 0.5rem;
 }
 
 /* Buttons */
 .btn-group {
     display: flex;
-    gap: 0.85rem;
+    gap: 0.75rem;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 .btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 1.4rem;
     border-radius: 14px;
     font-weight: 700;
     font-size: 0.92rem;
@@ -302,110 +517,152 @@ nav {
     cursor: pointer;
     border: none;
     font-family: var(--font-sans);
+    min-height: 44px;
+    box-sizing: border-box;
+    text-align: center;
 }
 .btn-primary {
     background: var(--primary);
-    color: #FFFFFF;
-    box-shadow: 0 4px 16px var(--primary-glow);
+    color: var(--primary-text);
+    border: 1px solid var(--primary);
+    box-shadow: 0 2px 10px var(--primary-glow);
 }
 .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 22px var(--primary-glow);
-    filter: brightness(1.08);
+    transform: translateY(-1px);
+    filter: brightness(0.95);
+}
+[data-theme="light"] .btn-primary:hover {
+    filter: brightness(1.15);
 }
 .btn-secondary {
-    background: var(--bg-card);
+    background: var(--bg-inset);
     color: var(--text-main);
     border: 1px solid var(--border);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 .btn-secondary:hover {
-    border-color: var(--primary);
+    border-color: var(--border);
     background: var(--bg-card-hover);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-hover);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+    .btn-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .btn-group .btn {
+        width: 100%;
+    }
 }
 
 /* Headers & Grids */
 .section-header {
     text-align: center;
-    margin-bottom: 2.75rem;
+    margin-bottom: clamp(1.75rem, 4vw, 2.75rem);
+    width: 100%;
 }
 .section-header h2 {
-    font-size: 2.15rem;
+    font-size: clamp(1.4rem, 3.5vw, 2.15rem);
     font-weight: 800;
     letter-spacing: -0.025em;
     margin-bottom: 0.5rem;
     color: var(--text-main);
+    word-break: break-word;
 }
 .section-header p {
     color: var(--text-muted);
-    font-size: 1.05rem;
+    font-size: clamp(0.92rem, 2vw, 1.05rem);
+    padding: 0 0.5rem;
 }
 .grid-2 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    gap: 1.6rem;
+    width: 100%;
 }
 .grid-3 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.6rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+    gap: 1.4rem;
+    width: 100%;
+}
+@media (max-width: 640px) {
+    .grid-2, .grid-3 {
+        grid-template-columns: 1fr;
+        gap: 1.15rem;
+    }
 }
 
-/* Cards (Rounded 20px with subtle borders & soft shadows) */
+/* Cards */
 .card {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--card-radius);
-    padding: 1.85rem;
+    padding: clamp(1.15rem, 3vw, 1.85rem);
     box-shadow: var(--shadow-card);
     transition: border-color 0.22s, transform 0.22s, box-shadow 0.22s;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 .card:hover {
-    border-color: var(--primary);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-hover);
+    border-color: var(--border);
+    transform: translateY(-1px);
 }
 .card-header {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.25rem;
+    gap: 0.85rem;
+    margin-bottom: 1.15rem;
+    flex-wrap: wrap;
 }
 .card-title {
-    font-size: 1.22rem;
+    font-size: clamp(1.08rem, 2.5vw, 1.22rem);
     font-weight: 800;
     letter-spacing: -0.015em;
     color: var(--text-main);
+}
+@media (max-width: 480px) {
+    .card-header .card-badge {
+        margin-left: 0 !important;
+        margin-top: 0.25rem;
+    }
 }
 
 /* Badges & Chips */
 .card-badge {
     display: inline-flex;
     align-items: center;
-    padding: 0.3rem 0.75rem;
-    border-radius: var(--pill-radius);
+    padding: 0.25rem 0.65rem;
+    border-radius: 6px;
     font-size: 0.72rem;
     font-weight: 700;
     font-family: var(--font-mono);
     text-transform: uppercase;
     letter-spacing: 0.04em;
+    white-space: nowrap;
 }
 .badge-warning {
     background: var(--warning-soft);
     color: var(--warning);
-    border: 1px solid rgba(245, 158, 11, 0.35);
+    border: 1px solid rgba(245, 158, 11, 0.3);
 }
 .badge-info, .badge-primary {
     background: var(--primary-soft);
-    color: var(--primary);
-    border: 1px solid rgba(56, 189, 248, 0.35);
+    color: var(--text-main);
+    border: 1px solid var(--border);
 }
 .badge-success {
     background: var(--accent-soft);
     color: var(--accent);
-    border: 1px solid rgba(16, 185, 129, 0.35);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+}
+.badge-danger {
+    background: var(--danger-soft);
+    color: var(--danger);
+    border: 1px solid rgba(239, 68, 68, 0.3);
 }
 
 /* Code & Telemetry Elements */
@@ -413,14 +670,19 @@ nav {
     background: var(--bg-code);
     border: 1px solid var(--border);
     border-radius: 12px;
-    padding: 0.85rem 1.15rem;
+    padding: 0.75rem 1rem;
     font-family: var(--font-mono);
-    font-size: 0.84rem;
+    font-size: clamp(0.72rem, 2vw, 0.84rem);
     color: var(--primary);
     overflow-x: auto;
-    margin: 0.75rem 0;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    margin: 0.65rem 0;
     user-select: all;
     line-height: 1.55;
+    word-break: break-all;
+    white-space: pre-wrap;
+    box-sizing: border-box;
 }
 .code-pill {
     background: var(--bg-code);
@@ -430,10 +692,11 @@ nav {
     font-size: 0.82rem;
     color: var(--primary);
     border: 1px solid var(--border);
+    display: inline-block;
 }
 .feature-icon {
-    width: 46px;
-    height: 46px;
+    width: 44px;
+    height: 44px;
     border-radius: 14px;
     background: var(--primary-soft);
     border: 1px solid var(--border);
@@ -469,9 +732,11 @@ nav {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--card-radius);
-    padding: 2.25rem;
+    padding: clamp(1.25rem, 4vw, 2.25rem);
     margin-bottom: 2rem;
     box-shadow: var(--shadow-card);
+    width: 100%;
+    box-sizing: border-box;
 }
 .blog-meta {
     display: flex;
@@ -484,14 +749,14 @@ nav {
     flex-wrap: wrap;
 }
 .blog-card h3 {
-    font-size: 1.7rem;
+    font-size: clamp(1.35rem, 3.5vw, 1.7rem);
     font-weight: 800;
     margin-bottom: 1.25rem;
     line-height: 1.3;
     color: var(--text-main);
 }
 .blog-content h4 {
-    font-size: 1.2rem;
+    font-size: clamp(1.08rem, 2.5vw, 1.2rem);
     font-weight: 700;
     color: var(--text-main);
     margin: 1.75rem 0 0.75rem 0;
@@ -499,7 +764,7 @@ nav {
 .blog-content p {
     color: var(--text-muted);
     margin-bottom: 1.15rem;
-    font-size: 1.02rem;
+    font-size: clamp(0.95rem, 2vw, 1.02rem);
     line-height: 1.75;
 }
 .blog-callout {
@@ -526,52 +791,59 @@ nav {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--card-radius);
-    padding: 2.5rem;
+    padding: clamp(1.25rem, 4vw, 2.5rem);
     margin-bottom: 2rem;
     box-shadow: var(--shadow-card);
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 .doc-page h1 {
-    font-size: 2.25rem;
+    font-size: clamp(1.6rem, 4vw, 2.25rem);
     font-weight: 800;
     letter-spacing: -0.025em;
     margin-bottom: 0.5rem;
     color: var(--text-main);
 }
 .doc-page h2 {
-    font-size: 1.55rem;
+    font-size: clamp(1.25rem, 3vw, 1.55rem);
     font-weight: 800;
     color: var(--text-main);
-    margin: 2.25rem 0 0.85rem 0;
+    margin: 2rem 0 0.85rem 0;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--border);
 }
 .doc-page h3 {
-    font-size: 1.2rem;
+    font-size: clamp(1.08rem, 2.5vw, 1.2rem);
     font-weight: 700;
     color: var(--primary);
     margin: 1.5rem 0 0.65rem 0;
 }
 .doc-page p, .doc-page li {
     color: var(--text-muted);
-    font-size: 1rem;
+    font-size: clamp(0.92rem, 2vw, 1rem);
     line-height: 1.7;
     margin-bottom: 0.85rem;
 }
 .doc-page ul, .doc-page ol {
-    margin-left: 1.5rem;
+    margin-left: 1.25rem;
     margin-bottom: 1.25rem;
 }
 .doc-page table {
     width: 100%;
     border-collapse: collapse;
     margin: 1.5rem 0;
-    font-size: 0.92rem;
+    font-size: clamp(0.78rem, 2vw, 0.92rem);
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid var(--border);
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 .doc-page th, .doc-page td {
-    padding: 0.85rem 1rem;
+    padding: clamp(0.6rem, 2vw, 0.85rem) clamp(0.65rem, 2vw, 1rem);
     border: 1px solid var(--border);
     text-align: left;
 }
@@ -580,25 +852,69 @@ nav {
     color: var(--primary);
     font-family: var(--font-mono);
     font-weight: 700;
+    white-space: nowrap;
 }
 .doc-page td {
     background: var(--bg-card);
     color: var(--text-muted);
 }
 
+/* Emergency Console Specific Responsive Styles */
+.emergency-dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.emergency-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
+    gap: 0.85rem;
+    margin-bottom: 1.5rem;
+}
+.emergency-actions-grid {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+.emergency-actions-grid .btn {
+    flex: 1 1 calc(50% - 0.5rem);
+    min-width: 140px;
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width: 540px) {
+    .emergency-actions-grid .btn {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    .emergency-dashboard-header > div:last-child {
+        width: 100%;
+        display: flex;
+    }
+    .emergency-dashboard-header > div:last-child .btn {
+        flex: 1;
+        justify-content: center;
+    }
+}
+
 /* Footer */
 footer {
     border-top: 1px solid var(--border);
-    padding: 3.5rem 1.5rem;
+    padding: clamp(2rem, 5vw, 3.5rem) 1rem;
     text-align: center;
     color: var(--text-muted);
-    font-size: 0.9rem;
-    margin-top: 4rem;
+    font-size: 0.88rem;
+    margin-top: auto;
     background: var(--bg-dark);
+    width: 100%;
+    box-sizing: border-box;
 }
 .footer-links {
     display: flex;
-    gap: 1.5rem;
+    gap: 0.85rem 1.4rem;
     justify-content: center;
     margin-bottom: 1.25rem;
     flex-wrap: wrap;
@@ -609,6 +925,7 @@ footer {
     font-weight: 600;
     font-size: 0.88rem;
     transition: color 0.2s;
+    white-space: nowrap;
 }
 .footer-links a:hover { color: var(--primary); }
 
@@ -657,33 +974,47 @@ footer {
 <body>
     <nav>
         <a href="index.html" class="brand">
-            <img src="assets/logo.png" alt="SHE Logo" />
+            <img src="logo.png" alt="SHE Logo" />
             <span>SHE</span>
             <span class="brand-badge">ANTI-THEFT</span>
         </a>
-        <div class="nav-links">
-            <a href="index.html" class="">Home</a><a href="#downloads" class="">Releases & Download</a><a href="#telemetry" class="">Live Map</a><a href="#features" class="">Features</a><a href="docs/user-guide.html" class="">User Guide</a><a href="docs/setup-order.html" class="">Setup Runbook</a><a href="docs/privacy.html" class="">Data Privacy</a><a href="#blog" class="">Security Guide</a>
+        <div class="nav-actions">
             <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Light/Dark Theme" title="Toggle Light/Dark Theme">
                 <span class="theme-icon-dark"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
                 <span class="theme-icon-light"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
                 <span id="theme-text">Theme</span>
             </button>
+            <button id="nav-toggle" class="nav-toggle-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <svg class="hamburger-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+                <svg class="close-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div id="nav-links" class="nav-links">
+            <a href="index.html" class="active">Home</a><a href="#downloads" class="">Releases & Download</a><a href="https://she.up.railway.app/emergency" class="">Emergency Console</a><a href="https://she.up.railway.app/docs/2fa-and-recovery" class="">2FA & Recovery Guide</a><a href="https://she.up.railway.app/terms" class="">Terms of Service</a><a href="docs/privacy.html" class="">Data Privacy</a><a href="docs/user-guide.html" class="">User Guide</a>
         </div>
     </nav>
 
     
-    <div style="padding: 0 1.5rem;">
-        <div class="warning-banner">
-            <div class="warning-icon"><svg class="inline-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg></div>
-            <div class="warning-body">
-                <div class="warning-title">Pre-Release / Hardware Verification in Progress</div>
-                SHE is currently undergoing active hardware testing on physical test devices. Official signed release builds have not yet been published. Direct APK downloads are paused to prevent distribution of unauthenticated debug binaries. Please build directly from the verified open-source repository via Gradle.
+    <div class="banner-wrap">
+        <div class="release-banner">
+            <div class="release-icon"><svg class="inline-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></div>
+            <div class="release-body">
+                <div class="release-title">v0.3.0 Community Release Active &bull; Verified Binaries Live</div>
+                Official APK builds for <strong>SHE Guardian</strong> and <strong>SHE Admin Companion</strong> are now live for hardware testing and sideloading with full SHA-256 cryptographic verification.
             </div>
+            <a href="#downloads" class="btn btn-primary" style="white-space: nowrap; padding: 0.55rem 1.15rem; font-size: 0.85rem; text-decoration: none;">Download APKs &rarr;</a>
         </div>
     </div>
 
     <header class="hero">
-        <img src="assets/logo.png" alt="SHE Logo" style="width: 110px; height: 110px; object-fit: contain; margin-bottom: 1.5rem; filter: drop-shadow(0 0 25px rgba(0, 210, 255, 0.35));" />
+        <img src="logo.png" alt="SHE Logo" style="width: 110px; height: 110px; object-fit: contain; margin-bottom: 1.5rem; filter: drop-shadow(0 0 25px rgba(0, 210, 255, 0.35));" />
         <div class="hero-badge"><svg class="inline-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg> Version 0.3.0 &bull; Open-Source Handset Security</div>
         <h1>Sentinel for <span>Handheld Equipment</span></h1>
         <p>A zero-compromise, open-source Android anti-theft and remote handset recovery ecosystem designed for high-stress offline environments.</p>
@@ -714,15 +1045,15 @@ footer {
                 <span class="card-badge badge-success" style="margin-left: auto;">Demo Lock</span>
             </div>
 
-            <div style="background: var(--bg-inset); border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem; margin: 1rem 0;">
-                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+            <div style="background: var(--bg-inset); border: 1px solid var(--border); border-radius: 8px; padding: clamp(0.85rem, 3vw, 1.25rem); margin: 1rem 0;">
+                <div class="telemetry-stat-row">
                     <div>
                         <div style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase;">Satellite Coordinates:</div>
-                        <div style="font-family: var(--font-mono); font-size: 1.35rem; font-weight: 700; color: #38bdf8; margin-top: 0.25rem;">
+                        <div style="font-family: var(--font-mono); font-size: clamp(1.1rem, 3vw, 1.35rem); font-weight: 700; color: #38bdf8; margin-top: 0.25rem;">
                             28.61393, 77.22950 <span style="font-size: 0.9rem; color: #10b981; font-weight: 600;">(±12.5m)</span>
                         </div>
                     </div>
-                    <div style="text-align: right;">
+                    <div>
                         <div style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase;">Hardware Precision:</div>
                         <div style="font-size: 0.88rem; color: #f3f4f6; font-weight: 600; margin-top: 0.25rem;">
                             High-Precision Sat-Lock
@@ -736,8 +1067,8 @@ footer {
             </div>
 
             <!-- Action Buttons: Search on Map & Info -->
-            <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.25rem;">
-                <a href="https://maps.google.com/?q=28.61393,77.22950" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="flex: 1; justify-content: center; text-decoration: none;">
+            <div class="btn-group" style="margin-top: 1.25rem;">
+                <a href="https://maps.google.com/?q=28.61393,77.22950" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="flex: 1; min-width: 180px; justify-content: center; text-decoration: none;">
                     <svg class="inline-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon><line x1="8" y1="2" x2="8" y2="18"></line><line x1="16" y1="6" x2="16" y2="22"></line></svg> Search on Google Maps
                 </a>
                 <button onclick="document.getElementById('locationInfoModal').style.display='flex'" class="btn btn-secondary" style="justify-content: center; cursor: pointer;">
@@ -768,12 +1099,12 @@ footer {
                     Runs Direct Boot tracking in Device Encrypted Storage, offline AT1 SMS beacons, remote sirens, and device owner kiosk restrictions.
                 </p>
                 <a href="releases/she-guardian.apk" class="btn btn-primary" style="width: 100%; justify-content: center; margin-bottom: 1rem; text-decoration: none;">
-                    <svg class="inline-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> Download SHE Guardian APK (33.7 MB)
+                    <svg class="inline-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> Download SHE Guardian APK (35 MB)
                 </a>
                 <div style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase;">Compile via Gradle:</div>
-                <div class="code-block">./gradlew :app-guardian:assembleDirectDebug</div>
-                <div style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; margin-top: 0.75rem;">Local Debug Checksum:</div>
-                <div class="code-block" style="font-size: 0.72rem;">16af849adc7cdf811fe270497e1c9e7ec9f4714be35e907219590cec2f2f204f</div>
+                <div class="code-block">./gradlew :app-guardian:assembleDirectRelease</div>
+                <div style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; margin-top: 0.75rem;">SHA-256 Checksum:</div>
+                <div class="code-block" style="font-size: 0.72rem;">aeefa45dceb9734b9ad07712e6452b4555a77444272f2fb1292413eeadb08d15</div>
                 <a href="docs/setup-order.html" class="btn btn-secondary" style="width: 100%; justify-content: center; margin-top: 0.5rem;">
                     Guardian Setup Runbook &rarr;
                 </a>
@@ -793,12 +1124,12 @@ footer {
                     Monitors live GPS fixes, dispatches signed HMAC commands, and manages zero-knowledge client-side encrypted vault secrets.
                 </p>
                 <a href="releases/she-admin.apk" class="btn btn-primary" style="width: 100%; justify-content: center; margin-bottom: 1rem; text-decoration: none;">
-                    <svg class="inline-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> Download SHE Admin APK (32.0 MB)
+                    <svg class="inline-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> Download SHE Admin APK (36 MB)
                 </a>
                 <div style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase;">Compile via Gradle:</div>
-                <div class="code-block">./gradlew :app-admin:assembleDebug</div>
-                <div style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; margin-top: 0.75rem;">Local Debug Checksum:</div>
-                <div class="code-block" style="font-size: 0.72rem;">ec4c59db496542387f8a9cbbb33b3eb69753ba988bb8452bcce5fd2e7203b8bf</div>
+                <div class="code-block">./gradlew :app-admin:assembleRelease</div>
+                <div style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; margin-top: 0.75rem;">SHA-256 Checksum:</div>
+                <div class="code-block" style="font-size: 0.72rem;">88a365abca31814137a45e959a47b3181888397e359e853dedeeb2ace1f7b569</div>
                 <a href="docs/setup-order.html" class="btn btn-secondary" style="width: 100%; justify-content: center; margin-top: 0.5rem;">
                     Admin Setup Runbook &rarr;
                 </a>
@@ -1086,9 +1417,9 @@ footer {
                     </li>
                 </ul>
 
-                <h4>2. Why It Is Impossible to Send Spam or Malicious Links</h4>
+                <h4>2. How SHE Restricts SMS Transmission</h4>
                 <p>
-                    A malicious SMS app typically sends spam to premium-rate numbers or contacts. SHE prevents this at the architecture level:
+                    A malicious SMS app typically sends spam to premium-rate numbers or contacts. SHE mitigates this at the architecture level:
                 </p>
                 <ul style="margin-left: 1.5rem; margin-bottom: 1.25rem; color: #d1d5db;">
                     <li style="margin-bottom: 0.6rem;">
@@ -1241,10 +1572,12 @@ footer {
         <div class="footer-links">
             <a href="index.html">Home</a>
             <a href="#downloads">Releases &amp; APKs</a>
+            <a href="https://she.up.railway.app/emergency">Emergency Console</a>
+            <a href="https://she.up.railway.app/docs/2fa-and-recovery">2FA &amp; Recovery Blog</a>
+            <a href="https://she.up.railway.app/terms">Terms of Service</a>
+            <a href="docs/privacy.html">Privacy Policy</a>
             <a href="docs/user-guide.html">User Guide</a>
             <a href="docs/setup-order.html">Setup Runbook</a>
-            <a href="docs/privacy.html">Data Privacy &amp; Security</a>
-            <a href="#blog">Security Blog</a>
         </div>
         <p>&copy; 2026 SHE (Sentinel for Handheld Equipment). Free & Open-Source Software under Apache 2.0.</p>
         <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-subtle);">
@@ -1270,6 +1603,30 @@ footer {
                     document.documentElement.setAttribute('data-theme', next);
                     localStorage.setItem('she_theme', next);
                     refreshThemeText();
+                });
+            }
+
+            var navToggle = document.getElementById('nav-toggle');
+            var navLinks = document.getElementById('nav-links');
+            if (navToggle && navLinks) {
+                navToggle.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    var isOpen = navLinks.classList.toggle('open');
+                    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+                    var h = navToggle.querySelector('.hamburger-icon');
+                    var c = navToggle.querySelector('.close-icon');
+                    if (h) h.style.display = isOpen ? 'none' : 'block';
+                    if (c) c.style.display = isOpen ? 'block' : 'none';
+                });
+                document.addEventListener('click', function(e) {
+                    if (!navLinks.contains(e.target) && !navToggle.contains(e.target) && navLinks.classList.contains('open')) {
+                        navLinks.classList.remove('open');
+                        navToggle.setAttribute('aria-expanded', 'false');
+                        var h = navToggle.querySelector('.hamburger-icon');
+                        var c = navToggle.querySelector('.close-icon');
+                        if (h) h.style.display = 'block';
+                        if (c) c.style.display = 'none';
+                    }
                 });
             }
         });
